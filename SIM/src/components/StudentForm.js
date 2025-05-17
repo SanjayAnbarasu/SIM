@@ -27,6 +27,8 @@ function StudentForm({ addStudent }) {
         onChange={(e) => setGrade(e.target.value)}
       />
       <button type="submit">➕ Add</button>
+      <button type="button" onClick={() => { setName(''); setGrade(''); }}>❌ Clear</button>
+      <button type="button" onClick={() => { setName(''); setGrade(''); }}>❌ Clear</button>
     </form>
   );
 }
