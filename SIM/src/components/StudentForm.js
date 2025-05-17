@@ -28,7 +28,7 @@ function StudentForm({ addStudent }) {
       />
       <button type="submit">➕ Add</button>
       <button type="button" onClick={() => { setName(''); setGrade(''); }}>❌ Clear</button>
-      <button type="button" onClick={() => { setName(''); setGrade(''); }}>❌ Clear</button>
+    
     </form>
   );
 }
